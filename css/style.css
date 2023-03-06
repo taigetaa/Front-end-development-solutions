@@ -22,10 +22,12 @@ html {
 }
 
 .intro__title {
+    font-family: 'GalanoGrotesque-Medium';
     font-size: 4.6rem;
     line-height: 120%;
     max-width: 840px;
     margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .solutions {
@@ -40,6 +42,7 @@ html {
     background: white;
     padding: 22px;
     max-width: 390px;
+    text-align: left;
     /* margin: 0px 100px; */
 }
 
@@ -53,5 +56,6 @@ html {
 .solution__desc {
     font-size: 1.7rem;
     line-height: 26px;
-    max-width: 340px;
+    max-width: 343px;
+    margin-bottom: auto;
 }
