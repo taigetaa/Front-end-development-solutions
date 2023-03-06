@@ -59,3 +59,10 @@ html {
     max-width: 343px;
     margin-bottom: auto;
 }
+
+@media screen and (max-width: 770px) {
+    .solutions__card {
+        grid-column: span 6;
+        margin: auto 100px;
+    }
+}
