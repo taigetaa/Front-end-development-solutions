@@ -2,13 +2,18 @@ html {
     font-size: 62.5%;
 }
 
+.intro {
+    background: #F9F9FA;
+    padding: 80px 0px;
+    text-align: center;
+}
+
 .subheadline {
-    position: relative;
-    font-size: 2.2rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
     font-weight: bold;
     line-height: 1;
     text-transform: uppercase;
-    text-align: center;
     background: linear-gradient(90deg, #4343FF 0%, #F96D6D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -16,16 +21,11 @@ html {
     margin-bottom: 22px;
 }
 
-.intro {
-    background: #F9F9FA;
-    padding: 80px 0px;
-}
-
 .intro__title {
     font-size: 4.6rem;
     line-height: 120%;
     max-width: 840px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 .solutions {
