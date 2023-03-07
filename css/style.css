@@ -180,6 +180,30 @@ html {
         justify-content: center;
     }
     .info__cards {
+        display: flex;
+        flex-direction: column;
         padding: 60px;
+    }
+    .info__card-pic {
+        padding: 0 290px;
+    }
+    .info__cards-card-2 {
+        align-content: center;
+        padding: 22px 25px;
+        background: #F7F7F7;
+        margin-bottom: 15px;
+        height: 100%;
+    }
+    .info__cards-card-title::after {
+        display: block;
+        position: absolute;
+        content: '';
+        width: 170px;
+        height: 1px;
+        text-align: center;
+        background: #E5E5E5;
+        margin-top: 10px;
+        left: 47%;
+        margin-left: -57px;
     }
 }
