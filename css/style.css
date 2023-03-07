@@ -163,4 +163,23 @@ html {
         grid-column: span 3;
         gap: 20px;
     }
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    .info__conditions {
+        padding: 40px 100px;
+    }
+    .info__conditions-title {
+        text-align: center;
+        font-size: 3.6rem;
+        line-height: 38px;
+        color: #56565A;
+    }
+    .info__buttons {
+        justify-content: center;
+    }
+    .info__cards {
+        padding: 60px;
+    }
 }
