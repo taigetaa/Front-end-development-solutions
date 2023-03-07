@@ -103,11 +103,17 @@ html {
     gap: 20px;
 }
 
+.info__cards-line {
+    display: flex;
+    flex-direction: column;
+}
+
 .info__cards-card-1 {
     align-content: center;
     padding: 22px 25px;
     background: #F7F7F7;
     margin-bottom: 15px;
+    height: 100%;
 }
 
 .info__cards-card-2 {
@@ -115,6 +121,7 @@ html {
     padding: 100px 25px;
     background: #F7F7F7;
     margin-bottom: 15px;
+    height: 100%;
 }
 
 .info__card-pic {
